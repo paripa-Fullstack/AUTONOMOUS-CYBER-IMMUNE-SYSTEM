@@ -1,0 +1,40 @@
+# Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# AI/ML
+torch==2.2.1
+tensorflow==2.15.0
+scikit-learn==1.4.1
+numpy==1.26.4
+pandas==2.2.1
+networkx==3.2.1
+
+# Data
+neo4j==5.17.0
+elasticsearch==8.12.1
+redis==5.0.1
+sqlalchemy==2.0.27
+
+# Messaging
+kafka-python==2.0.2
+aiokafka==0.10.0
+
+# Utils
+httpx==0.26.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Testing
+pytest==8.0.2
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+
+# Code quality
+black==24.2.0
+flake8==7.0.0
+mypy==1.8.0
+isort==5.13.2
