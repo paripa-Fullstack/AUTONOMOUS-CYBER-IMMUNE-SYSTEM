@@ -20,55 +20,55 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual environments
 venv/
 ENV/
-env.bak/
-.venv/
 env/
+.venv/
+.env/
 
-# Environment variables
-.env
-.env.local
-.env.*
-
-# Dependencies
-node_modules/
-julia-*/
-zig*/
-
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Coverage reports
-.coverage
-htmlcov/
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# IDE specific
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# OS generated files
+# Logs
+*.log
+
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
-Icon?
+
+# Docker
+.dockerenv
+Dockerfile
+docker-compose.yml
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+.mypy_cache/
+.pytest_cache/
+.npm
+.yarn
+
+# Build artifacts
+target/
+.gradle/
 ```
